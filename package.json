@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "buildh": "ng build --output-hashing=bundles",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:dyn-comp-app": "node dist/dyn-comp-app/server/server.mjs"
